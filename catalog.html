@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Catalog</h1>
+        <div class="filters">
+            <h3>Filters</h3>
+            <label for="category">Select Category:</label>
+            <select id="category">
+                <option value="all">All Products</option>
+                <option value="nutrition">Nutrition</option>
+                <option value="supplements">Supplements</option>
+                <option value="accessories">Accessories</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div class="product-list">
+            <!-- Example Product -->
+            <div class="product-item">
+                <img src="product1.jpg" alt="Product 1">
+                <h2>Product Name 1</h2>
+                <p>Description of product 1</p>
+                <p>Price: $XX.XX</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Repeat similar blocks for each product -->
+            <!-- More products (totaling 20+) should be added here -->
+        </div>
+    </main>
+
+    <aside>
+        <h3>Shopping Cart</h3>
+        <div id="cart">Your cart is empty</div>
+    </aside>
+
+    <footer>
+        <p>&copy; 2026 Sport Nutrition Store</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
